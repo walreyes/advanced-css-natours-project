@@ -1,0 +1,8 @@
+// What's the magic behind a clearfix?
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "walrey.es",
+  "version": "1.0.0",
+  "description": "Walter Reyes Site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": "https://github.com/walreyes/walreyes.github.io",
+  "author": "Walter Reyes",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
