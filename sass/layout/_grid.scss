@@ -1,7 +1,6 @@
 .row {
   // This is a standard used nowadays.
   max-width: $grid-width;
-  background-color: #eee;
 
   // This does a magic trick to center a block element inside a block element
   margin: 0 auto;
@@ -15,7 +14,6 @@
   // Select the elements of which the attribute class starts(^) with col-
   [class^="col-"] {
     height: 4rem;
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
