@@ -13,7 +13,6 @@
 
   // Select the elements of which the attribute class starts(^) with col-
   [class^="col-"] {
-    height: 4rem;
     float: left;
 
     &:not(:last-child) {
